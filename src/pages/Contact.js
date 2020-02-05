@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
 import ReactHtmlParser from "react-html-parser";
-import API from "../utils/API";
+//import API from "../utils/API";
 // import ScrollAnimation from 'react-animate-on-scroll';
 
 
@@ -69,7 +69,7 @@ class Contact extends Component {
                 message: message
             } = this.state;
             const data = { name, email, subject, message };
-            API.saveContact(data)
+            /*API.saveContact(data)
                 .then((response) => {
                     console.log(response);
                     setTimeout( ()=> {
@@ -87,12 +87,7 @@ class Contact extends Component {
                     },1000);
                 })
                 .catch(err => { console.log(err);
-                    /*this.setState({
-                        'btnText' : 'Error Found',
-                        errorInvoiceEmail : false,
-                        'isSend' : false,
-                    });*/
-            });
+            });*/
         } else {
             this.setState({
                 errorInvoiceEmail: true,
