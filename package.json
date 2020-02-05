@@ -2,7 +2,7 @@
   "name": "simple-reactjs-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aaronphillips929.github.io/solarisdev",
+  //"homepage": "http://aaronphillips929.github.io/solarisdev",
   "engines" : {
       "node" : "10.16.2",
       "npm" : "6.9.0"
